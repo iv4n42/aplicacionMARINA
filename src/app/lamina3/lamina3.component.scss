@@ -1,0 +1,93 @@
+#container3 {
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+  #intro4 {
+    display: flex;
+    flex-direction: row;
+      width: 290px;
+      text-align: left;
+      font-weight: 500;
+      font-size: xx-large;
+      color:  black;
+      border-bottom: solid 2px;
+      border-bottom-color: black;
+      padding-bottom: 10px;
+  }
+  #card4 {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      width: 250px;
+      height: 340px;
+      background-image: url(../../imagenes/Grupo\ 1431.jpg);
+      background-size: cover;
+      background-position: top;
+      background-repeat: no-repeat;
+      
+      box-shadow: none;
+      border-radius: 3%;
+     
+  }
+  #card5 {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      width: 250px;
+      height: 340px;
+      background-image: url(../../imagenes/Grupo\ -1.jpg);
+      background-size: cover;
+      background-position: top;
+      background-repeat: no-repeat;
+      
+      box-shadow: none;
+      border-radius: 3%;
+  }
+  #card6 {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      width: 250px;
+      height: 340px;
+      background-image: url(../../imagenes/Grupo\ -2.jpg);
+      background-size: cover;
+      background-position: top;
+      background-repeat: no-repeat;
+      
+      box-shadow: none;
+      border-radius: 3%;
+      
+  }
+     
+  
+  
+  #cardContainer2 {
+      width: inherit;
+      height: 400px;
+      display: flex;
+      flex-direction: row;
+      justify-content:space-around;
+      align-items: center;
+      
+      
+      
+  
+  }
+  #insideCard2 {
+      margin: 5px !important;
+      box-shadow: none;
+      background-color: transparent;
+      
+      
+  }
+
+ 
+      
+#hideButon {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: transparent;
+    color: white;
+    box-shadow: none;
+    
+}

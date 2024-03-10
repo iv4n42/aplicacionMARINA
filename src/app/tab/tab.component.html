@@ -1,0 +1,154 @@
+<mat-tab-group  id ='tab1'>
+    <mat-tab >
+      <ng-template  mat-tab-label >
+        <div id="tagContainer">
+          <mat-icon >
+            <span class="material-symbols-outlined">
+                waves
+            </span>  
+        </mat-icon> 
+            <span>MARINA</span>
+        </div>
+      </ng-template>
+      <div id="butonBox">
+        <mat-button-toggle-group >
+            <mat-button-toggle >
+             SERVICIOS DE MARINA
+            </mat-button-toggle>
+          <mat-button-toggle>
+            EXCURSIONES
+          </mat-button-toggle>
+          <mat-button-toggle>
+            BUCEO
+          </mat-button-toggle>
+          <mat-button-toggle>
+            PESCA          
+          </mat-button-toggle>
+          <mat-button-toggle>
+            ACTIVIDADES DE PLAYA
+          </mat-button-toggle>
+          <mat-button-toggle>
+            VIDA A BORDO
+          </mat-button-toggle>
+        </mat-button-toggle-group>
+      </div>
+      
+      
+      <form action ="" id="form">
+        <mat-form-field >
+          <mat-icon matIconPrefix style="color: #2196F3;">
+            <span class="material-symbols-outlined">
+              location_on
+              </span>
+          </mat-icon>
+          <input style="font-size: small;" matInput placeholder="Destino" name="destino">
+        </mat-form-field>
+        <mat-form-field  >
+          <input matInput style="font-size: small;" placeholder='Fecha de Salida' [matDatepicker]="picker">
+          <mat-datepicker-toggle matIconPrefix style="color: #2196F3;" [for]="picker"></mat-datepicker-toggle>
+          <mat-datepicker #picker></mat-datepicker>
+        </mat-form-field>
+        <mat-form-field >
+          <mat-icon matIconPrefix style="color: #2196F3;">
+            <span class="material-symbols-outlined">
+              person
+              </span>
+          </mat-icon>
+          <input style="font-size: small;" type="number" matInput  placeholder="Personas"  name="personas">
+        </mat-form-field>
+          <button mat-fab extended id="submit">
+            <mat-icon>
+              <span class="material-symbols-outlined">
+                search
+                </span>
+            </mat-icon>
+            Buscar
+          </button>
+      </form>
+    </mat-tab>
+    <mat-tab>
+        <ng-template mat-tab-label>
+         <div id="tagContainer">
+          <mat-icon>
+            <span class="material-symbols-outlined">
+                hotel
+                </span>       
+          </mat-icon>  
+          <span>
+            HOTELES
+          </span>
+         </div>
+        </ng-template>
+        Content 2
+      </mat-tab>
+      <mat-tab>
+       <ng-template mat-tab-label>
+           <div id="tagContainer">
+            <mat-icon>
+              <span class="material-symbols-outlined">
+                  home
+                  </span>
+          </mat-icon>    
+          <span>CASAS</span>
+           </div>
+       </ng-template>
+       Content 3
+      </mat-tab>
+      <mat-tab>
+        <ng-template mat-tab-label>
+           <div id="tagContainer">
+            <mat-icon>
+              <span class="material-symbols-outlined">
+                  explore
+                  </span>
+          </mat-icon>
+          <span>EXPERIENCIAS</span>
+           </div>
+            
+        </ng-template>
+        Content 4
+      </mat-tab>
+      <mat-tab>
+        <ng-template mat-tab-label>
+           <div id="tagContainer">
+            <mat-icon>
+              <span class="material-symbols-outlined">
+                  flight_takeoff
+                  </span>
+          </mat-icon>
+          <span>VUELOS</span>
+           </div>
+            
+        </ng-template>
+        Content 5
+      </mat-tab>
+      <mat-tab>
+        <ng-template mat-tab-label>
+            <div id="tagContainer">
+              <mat-icon>
+                <span class="material-symbols-outlined">
+                    directions_car
+                    </span>
+            </mat-icon>
+            <span>AUTOS</span>
+            </div> 
+        </ng-template>
+        Content 6
+      </mat-tab>
+      <mat-tab>
+        <ng-template mat-tab-label>
+            <div id="tagContainer">
+              <mat-icon>
+                <span class="material-symbols-outlined">
+                    directions_bus
+                    </span> 
+            </mat-icon>
+            <span>TRANSFER</span>
+            </div>
+            
+        </ng-template>
+        Content 7
+      </mat-tab>
+</mat-tab-group>
+
+

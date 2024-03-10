@@ -1,0 +1,93 @@
+
+
+
+
+#container2 {
+  margin-left: 200px;
+  margin-right: 200px;
+}
+#intro3 {
+    width: 260px;
+    display: inline-block;
+    text-align: left;
+    font-weight: 500;
+    font-size: xx-large;
+    color:  black;
+    border-bottom: solid 2px;
+    border-bottom-color: black;
+    padding-bottom: 10px;
+}
+#card1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 250px;
+    height: 340px;
+    background-image: url(../../imagenes/pexels-lumn-294674.jpg);
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-color: #BBDEFB;
+    box-shadow: none;
+    border-radius: 3%;
+   
+}
+#card2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 250px;
+    height: 340px;
+    background-image: url(../../imagenes/ELIAN\ LÓPEZ\ 2.jpg);
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-color: #BBDEFB;
+    box-shadow: none;
+    border-radius: 3%;
+}
+#card3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 250px;
+    height: 340px;
+    background-image: url(../../imagenes/pexels-apg-graphics-1604869.jpg);
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-color: #BBDEFB;
+    box-shadow: none;
+    border-radius: 3%;
+    
+}
+   
+
+
+#cardContainer1 {
+    width: inherit;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    
+    
+    
+
+}
+#insideCard {
+    margin: 5px !important;
+    box-shadow: none;
+    box-shadow: 5px 5px 5px 1px #BBDEFB ,-5px 5px 5px 1px #BBDEFB ;    
+    
+}
+
+#cardLabel {
+    font-size: x-small;
+    border: 1px solid #2196F3;
+    border-radius: 15px;
+    width: 65px;
+    padding-left: 10px;
+    
+}

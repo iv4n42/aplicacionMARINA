@@ -1,0 +1,49 @@
+.mat-toolbar {
+    background-color: #2196F3;
+   display: flex;
+    justify-content: center;
+    height: 80px;
+
+}
+#imgContainer {
+    height: 80%;
+    width: 230px;
+    background-image: url('../../imagenes/Logo Marlin Blanco.png');
+    background-position: center;
+    background-size: 80% 50px;
+    background-repeat: no-repeat;
+    
+}
+
+
+#separator {
+    width: 20px;
+    height: inherit;
+    
+}
+
+#toolBar a, #toolBar button,#toolBar span {
+    color: white;
+}
+#user {
+   
+    background-color:#2196F3 ;
+    color: white;
+    box-shadow: none;
+    justify-content: space-between;
+    border: 2px solid;
+}
+#intro1 {
+    text-align: center;
+    font-weight: 500;
+    font-size: xx-large;
+    color: white;
+}
+#intro2 {
+    text-align: center;
+    color: white;
+}
+#container1 {
+    margin-left: 200px;
+  margin-right: 200px;
+}

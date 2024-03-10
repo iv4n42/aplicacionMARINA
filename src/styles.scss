@@ -1,0 +1,76 @@
+/* You can add global styles to this file, and also import other style files */
+@use '@angular/material' as mat;
+
+
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+$custom-primary-palette:(
+   50 : #E3F2FD,
+   100 : #BBDEFB,
+   200 : #90CAF9,
+   300 : #64B5F6,
+   400 : #42A5F5,
+   500 : #2196F3,
+   600 : #1E88E5,
+   700 : #1976D2,
+   800 : #1565C0,
+   900 : #0D47A1,
+   contrast:(
+      50 : white,
+      100 : white,
+      200 : white,
+      300 : white,
+      400 : white,
+      500 : white,
+      600 : white,
+      700 : white,
+      800 : white,
+      900 : white,
+    )
+);
+$custom-accent-palette:(
+    50  : #E0F7FA,
+    100 : #B2EBF2,
+    200 : #80DEEA,
+    300 : #4DD0E1,
+    400 : #26C6DA,
+    500 : #00BCD4,
+    600 : #00ACC1,
+    700 : #0097A7,
+    800 : #00838F,
+    900 : #006064,
+    A100: #84FFFF,
+    A200 : #18FFFF,
+    A400 : #00E5FF,
+    A700 : #00B8D4,
+    contrast:(
+       50 : white,
+      100 : white,
+      200 : white,
+      300 : white,
+      400 : white,
+      500 : white,
+      600 : white,
+      700 : white,
+      800 : white,
+      900 : white,
+
+    )
+    
+);
+
+$custom-primary: mat.define-palette($custom-primary-palette,500);
+$custom-accent: mat.define-palette($custom-accent-palette,A400);
+$custom-warn: mat.define-palette(mat.$red-palette);
+
+$custom-theme: mat.define-light-theme((
+    color:(
+        primary: $custom-primary,
+        accent: $custom-accent,
+        warn : $custom-warn,
+    )
+));
+
+@include mat.all-component-themes($custom-theme);
